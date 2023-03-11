@@ -1,7 +1,29 @@
 .container {
   padding: 0 2rem;
 }
+.header{
+  /* padding: 5rem; */
+  position: relative;
 
+}
+.header img{
+  width: 100%;
+}
+.headertext{
+  position: absolute;
+  font-family: serif;
+  top: 8em;
+  left: 10rem;
+}
+.headertext h1{
+  font-size: 5rem;
+  font-weight: 100;
+}
+.headertext p{
+  font-weight: 100;
+  color: rgb(118, 115, 115);
+  font-size: 1.5rem;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
